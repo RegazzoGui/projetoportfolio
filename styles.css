@@ -1,0 +1,93 @@
+body {
+    font-family: IBM Plex Mono, monospace;
+    color: #fff;
+    line-height: 1.6;
+    background-color: #33332d;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header {
+    background-color: #33332d;
+    color: #fff;
+    padding: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    border-bottom: 3px solid #fff;
+  }
+  
+  main {
+    flex: 1; /* Ocupa todo o espaço disponível no corpo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  section {
+    padding: 20px;
+    text-align: center; /* Centraliza o conteúdo */
+  }
+  
+  .container {
+    width: 50%; /* Utiliza 80% da largura disponível */
+    max-width: 280px; /* Limita a largura máxima para garantir uma boa experiência em telas maiores */
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+  
