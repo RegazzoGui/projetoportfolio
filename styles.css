@@ -1,11 +1,13 @@
 body {
     font-family: IBM Plex Mono, monospace;
+    align-items: center;
     color: #fff;
     line-height: 1.6;
     background-color: #33332d;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    margin: 0;
   }
   
   header {
@@ -56,12 +58,6 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
-  img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-
   form {
     display: flex;
     flex-direction: column;
@@ -90,4 +86,21 @@ button {
 button:hover {
     background-color: #555;
 }
-  
+
+
+.flex-container {
+  background-color: #33332d;
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-item {
+  margin: 15px;
+}
+
+.rounded-image {
+  width: 300x;
+  height: 300px;
+  border-radius: 200px;
+  object-fit: cover;
+}
